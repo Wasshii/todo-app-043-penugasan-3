@@ -7,7 +7,7 @@ import { Badge } from "@/app/components/ui/badge";
 
 // 6. Definisikan Props dan Inisialisasi State Lokal
 interface ApiTodoListProps {
-    initialTasks: TaskItem[];
+    initialTasks: TaskItem[]; //hehe
 }
 
 export default function ApiTodoList({ initialTasks }: ApiTodoListProps) {

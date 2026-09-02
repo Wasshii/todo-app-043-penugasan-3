@@ -1,5 +1,5 @@
 import { getTasks } from "@/lib/todos"; // Menggunakan getTasks untuk fetch data API
-import ApiTodoList from "../components/ApiTodoList"; // Ganti import ke ApiTodoList
+import ApiTodoList from "app/api-todos/components/ApiTodoList"; // Ganti import ke ApiTodoList
 
 // 4. Deklarasikan Server Component Asinkron
 export default async function TodoPage() {

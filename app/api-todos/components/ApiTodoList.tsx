@@ -35,7 +35,6 @@ export default function ApiTodoList({ initialTasks }: ApiTodoListProps) {
         }
     };
 
-    // 5. Render Header dan Penanganan Data Kosong (Empty State)
     return (
         <div className="space-y-4">
             <div className="flex items-center justify-between mb-4">
@@ -111,4 +110,4 @@ export default function ApiTodoList({ initialTasks }: ApiTodoListProps) {
             </div>
         </div>
     );
-}
+} // <--- KURUNG KURAWAL PENUTUP INI YANG TADI KURANG
